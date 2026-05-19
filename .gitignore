@@ -1,0 +1,69 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# ================= FRONTEND / REACT =================
+
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Testing
+coverage/
+
+# Production build
+build/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+
+# ================= BACKEND / PYTHON =================
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+env/
+backend/venv/
+backend/env/
+
+# Python environment files
+.python-version
+
+# SQLite database
+*.sqlite3
+
+# Flask cache
+instance/
+
+# Pytest cache
+.pytest_cache/
+
+# Mypy cache
+.mypy_cache/
+
+
+# ================= PROJECT FILES =================
+
+# Upload folders
+uploads/
+backend/uploads/
+
+# VS Code
+.vscode/
+
+# Mac system files
+.DS_Store
+
